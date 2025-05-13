@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
+<head><meta name="google-site-verification" content="7fJZQ0ngJZYuLbTVV_BNVdJLJ8b0IlX95UoUkq_Ipxs" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>تفاصيل المنتج - تيشيرت رياضي</title>
