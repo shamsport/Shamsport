@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شام سبورت - منتجات الألبسة</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; }
+    header { background: #222; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 2rem; }
+    .product-card { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+    .product-card img { width: 100%; border-radius: 10px; }
+    .product-card h3 { margin: 10px 0 5px; }
+    .product-card p { color: #555; margin: 0 0 10px; }
+    .product-card button { background: #0d6efd; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    .product-card button:hover { background: #0b5ed7; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>شام سبورت</h1>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">منتجات</a>
+    <a href="#">من نحن</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+</header>
+<section class="products">
+  <div class="product-card">
+    <a href="details-tshirt.html"><img src="https://via.placeholder.com/300x300?text=تيشيرت+رياضي" alt="تيشيرت رياضي" /></a>
+    <h3><a href="details-tshirt.html" style="text-decoration:none; color: black;">تيشيرت رياضي</a></h3>
+    <p>السعر: 120 ريال</p>
+    <button>أضف إلى السلة</button>
+  </div>
+  <div class="product-card">
+    <a href="details-pants.html"><img src="https://via.placeholder.com/300x300?text=بنطال+رياضي" alt="بنطال رياضي" /></a>
+    <h3><a href="details-pants.html" style="text-decoration:none; color: black;">بنطال رياضي</a></h3>
+    <p>السعر: 180 ريال</p>
+    <button>أضف إلى السلة</button>
+  </div>
+  <div class="product-card">
+    <a href="details-hoodie.html"><img src="https://via.placeholder.com/300x300?text=هودي+شتوي" alt="هودي شتوي" /></a>
+    <h3><a href="details-hoodie.html" style="text-decoration:none; color: black;">هودي شتوي</a></h3>
+    <p>السعر: 250 ريال</p>
+    <button>أضف إلى السلة</button>
+  </div>
+</section>
+</body>
+</html>
